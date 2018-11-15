@@ -1,0 +1,35 @@
+{
+  "name": "advancss",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinsungJinsung/Advanced-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinsungJinsung/Advanced-CSS/issues"
+  },
+  "homepage": "https://github.com/JinsungJinsung/Advanced-CSS#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.4.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function": {
+
+      }
+    }
+  },
+  "devDependencies": {
+    "postcss-color-mod-function": "^3.0.3"
+  }
+}
