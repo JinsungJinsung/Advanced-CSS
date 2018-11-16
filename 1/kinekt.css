@@ -1,0 +1,223 @@
+.top {
+    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 170px;
+    margin-bottom: 25px;
+}
+
+
+.top-title {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+.top-box-box {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
+
+.top ul {
+    list-style: none;
+    font-size: 10px;
+    margin-left: 38px;
+}
+
+.second{
+    margin-left: 0;
+    padding-inline-start: 0px;
+}
+
+.top-box .third{
+    margin-left: 0;
+    padding-inline-start: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-auto-rows: 173px;
+    grid-auto-columns: 224px;
+    grid-gap: 7px;
+    grid-template-areas: "a b b"
+                         "a b b"
+                         "c d e"
+                         "f d g"
+                         "h h i"
+                         "h h i"
+                         "j j k"
+                         "j j l"
+                         "z z x"
+                         "z z v";
+
+    
+}
+.box-content {
+    margin: 15px;
+}
+
+
+.header-top {
+    font-size: 11.5px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.header-title {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.header-content {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+.box-content input {
+    height: 30px;
+    width: 173px;
+}
+
+.box-content .subscribe {
+    background-color: yellow;
+    height: 29px;
+    text-align: start;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-top: 13px;
+}
+
+.v .box-content {
+    margin: 6;
+    
+
+}
+
+.a .header-bottom {
+    font-size: 10px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 180px;
+}
+
+.h .header-content {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.h .header-bottom {
+    font-size: 10px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 210px;
+}
+
+.box {
+    background-color: rgb(184, 134, 184);
+    
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+    height: 333px;
+}
+
+.c {
+    grid-area: c;    
+}
+
+
+.d {
+    grid-area: d;
+    margin-bottom:10px;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
+
+.g {
+    grid-area: g;
+}
+
+.h {
+    grid-area: h;
+}
+.i {
+    grid-area: i;
+    height: 333px;
+}
+.j {
+    grid-area: j;
+}
+
+.k {
+    grid-area: k;
+}
+
+.l {
+    grid-area: l;
+}
+
+.z {
+    grid-area: z;
+}
+
+.x {
+    grid-area: x;
+}
+
+.v {
+    grid-area: v;
+}
+
+.bottom {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bottom-box {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    grid-auto-columns: 150px;
+
+}
+
+.bottom-content {
+    font-size: 8px;
+    list-style: none; 
+    margin-left: 50px;   
+}
+
+.ab, .cd, .ef, .gf {
+    margin: 0;
+}
+
+.ab {
+    padding-inline-start: 65px;
+}
+
+.cd {
+    padding-inline-start: 35px;
+}
+
+.ef {
+    padding-inline-start: 0;
+}
