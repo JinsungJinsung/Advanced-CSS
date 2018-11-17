@@ -18,6 +18,7 @@
     background-color: black;
     height: 40px;
     width: 40px;
+    margin: 16px 0;
 }
 
 .top ul {
@@ -86,6 +87,7 @@
 .box-content input {
     height: 30px;
     width: 173px;
+    padding-left: 8px;
 }
 
 .box-content .subscribe {
@@ -128,64 +130,93 @@
 
 .a {
     grid-area: a;
+    background-color: #d5ecf4;
 }
 
 .b {
     grid-area: b;
     height: 333px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/04/14/22/donut-3723751__340.jpg);
+    background-size: cover;
 }
 
 .c {
-    grid-area: c;    
+    grid-area: c;
+    background-color: #e5efd9;
 }
 
 
 .d {
     grid-area: d;
     margin-bottom:10px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/29/16/42/woman-2354157__340.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .e {
     grid-area: e;
+    background-color: #fcf8c0;
 }
 
 .f {
     grid-area: f;
+    background-color: #ebebeb;
 }
 
 .g {
     grid-area: g;
+    background-color: #ebebeb;
 }
 
 .h {
     grid-area: h;
+    background-color: #f8e1f7;
 }
 .i {
     grid-area: i;
     height: 333px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/16/16/44/clock-1461689__340.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .j {
     grid-area: j;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/31/11/48/earphones-791309__340.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .k {
     grid-area: k;
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/22/17/42/grid-684983__340.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .l {
     grid-area: l;
+    background-image: url(https://image.shutterstock.com/image-vector/set-cloud-icons-trendy-flat-260nw-421269250.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .z {
     grid-area: z;
+    background-color: #e5efd9;
 }
 
 .x {
     grid-area: x;
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/04/17/30/animals-2471943__340.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .v {
     grid-area: v;
+    background-color: #fcf8c0;
 }
 
 .bottom {
